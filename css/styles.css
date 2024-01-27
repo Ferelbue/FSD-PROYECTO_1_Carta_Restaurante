@@ -69,3 +69,11 @@ body{
 .myFooter{
     background-image: linear-gradient(rgb(251, 251, 251),#878787);
 }
+
+.altura {
+    height: 100vh;
+}
+
+.background-blue{
+    background-color: blue;
+}
