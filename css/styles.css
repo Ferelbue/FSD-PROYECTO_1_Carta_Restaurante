@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 .content{
     display: flex;
     justify-content: center;
@@ -61,5 +67,5 @@
 }
 
 .myFooter{
-
+    background-image: linear-gradient(rgb(251, 251, 251),#878787);
 }
