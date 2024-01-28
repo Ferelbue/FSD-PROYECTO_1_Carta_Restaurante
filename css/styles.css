@@ -10,8 +10,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
+
+.content2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
 
 .navFormat {
     color: crimson;
