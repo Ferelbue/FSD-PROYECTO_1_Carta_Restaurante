@@ -49,23 +49,21 @@
           <h1 class="t-stroke-shadow" style="font-size: xx-large;">CONTACTO</h1>
         </div>
         <div class="content">
-          +34 659423781 <br>
-          casapepeburguers@gmail.com
-
           <ul class="list-unstyled">
-            <li><a href="tel:+34961949604" class="d-flex flex-row align-items-center text-decoration-none font-primary"><i class="bx bxs-phone-call me-2"></i>+34 961 949 604</a>
+            <li><a href="tel:+34659423781" class="d-flex flex-row align-items-center text-decoration-none telMail"><i class="bi bi-telephone"></i>+34 659 423 781</a>
             </li>
-            <li><a href="mailto:eltarantinchiflado@gmail.com" class="d-flex flex-row align-items-center text-decoration-none font-primary"><i class="bx bxs-envelope me-2"></i>eltarantinchiflado@gmail.com</a></li>
+            <br>
+            <li><a href="mailto:casapepeburguers@gmail.com" class="d-flex flex-row align-items-center text-decoration-none telMail"><i class="bi bi-envelope"></i>mailto:casapepeburguers@gmail.com</a></li>
           </ul>
 
 
 
         </div>
-        <div class="content bg-2" style="margin-top: 5em;">
+        <div class="content bg-2" style="margin-top: 2em;">
           <h1 class="t-stroke-shadow" style="font-size: xx-large;">HORARIOS</h1>
         </div>
-        <div class="content"  style="margin-bottom: 5em;">
-          Abierto todos los días de 13:00h a 23:30h ininterrumpido
+        <div class="content"  style="margin-bottom: 5em;color: white;">
+          Abierto todos los días de 13:00h a 23:30h
         </div>
       </div>
       <div class="col-12 col-md-6 col-lg-4">
@@ -84,7 +82,20 @@
           <h1 class="t-stroke-shadow content" style="font-size: xx-large;">COMENTARIOS<br> Y SUGERENCIAS</h1>
         </div>
         <div>
-          formulario
+          <form>
+            <div class="emailBox">
+              <label for="emailAddress">Tu dirección de correo electrónico</label><br />
+              <input id="emailAddress" type="email" size="45" maxlength="45" placeholder="username@ejemplo.com"
+                title="Proporcione solo una dirección de correo electrónico" />
+            </div>
+          
+            <div class="messageBox">
+              <label for="message">Solicitud</label><br />
+              <textarea id="message" cols="51" rows="7"
+                placeholder="Mis zapatos están demasiado apretados y he olvidado cómo bailar."></textarea>
+            </div>
+            <input id="btnMail"  type="submit" value="Enviar solicitud" />
+          </form>
 
         </div>
       </div>

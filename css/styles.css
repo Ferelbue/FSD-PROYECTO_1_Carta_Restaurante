@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: #878787;
     height: 100%;
-    width: 100;
+    width: 100%;
 }
 
 .content {
@@ -93,6 +93,7 @@ body {
 .bg-2 {
     background: linear-gradient(to right, crimson, 30%, black);
     margin-bottom: 1em;
+    height: 5em;
 }
 
 .t-stroke-shadow {
@@ -118,4 +119,20 @@ body {
     background-color: rgb(0, 0, 0);
     margin-bottom: 0.5em;
     color: crimson;
+}
+
+.telMail{
+    color: white;
+}
+
+.telMail:hover{
+    color: black;
+}
+#message{
+    resize: none;
+    width: 100%;
+}
+
+#emailAddress{
+    width: 100%;
 }
