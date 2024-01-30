@@ -3,21 +3,18 @@ body {
     padding: 0;
     background-color: #878787;
     min-height: 100vh;
-    
-
 }
 
-.content {
+.contentCenter{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content2{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+.navBarText{
+    color: crimson;
 }
+
 .textInicio{
     margin: 2em;
     display: flex;
@@ -31,11 +28,9 @@ body {
 
 .navFormat:hover {
     font-weight: bold;
-
 }
 
-
-.myBtn {
+.tableBtn {
     width: 15em;
     height: 4em;
     margin-top: 4.5em;
@@ -53,25 +48,18 @@ body {
     text-decoration: none;
 }
 
-.myBtn:hover {
+.tableBtn:hover {
     background-color: white;
     color: crimson;
     font-weight: bold;
     opacity: 85%;
     border-color: crimson;
     border-width: 0.2em;
-
 }
 
 .myNavbar {
     background-image: linear-gradient(rgb(251, 251, 251), #878787);
     width: 100%;
-
-}
-
-.prueba1 {
-    margin: 0;
-    padding: 0;
 }
 
 .imgCar {
@@ -79,23 +67,13 @@ body {
     z-index: -2;
 }
 
-.altura {
-    width: 100%;
-    height: 85vh;
-}
-
 .myFooter {
     background-image: linear-gradient(#878787, rgb(251, 251, 251));
 
 }
 
-.altura {
+.alturaImgCar {
     height: 100vh;
-}
-
-.anchura {
-    width: 100%;
-
 }
 
 .titleMenu {
@@ -103,13 +81,13 @@ body {
     color: crimson;
 }
 
-.bg-2 {
+.bgColor {
     background: linear-gradient(to right, crimson, 30%, black);
     margin-bottom: 1em;
     height: 5em;
 }
 
-.bg-2-2 {
+.bgColor2 {
     background: linear-gradient(to right, crimson, 30%, black);
     height: 5em;
     display: flex;
@@ -118,14 +96,16 @@ body {
     margin-bottom: 0.05em;
 
 }
-.textoAcceso{
+
+.imgAcceso{
     color: white;
     text-decoration: none;
     font-size: large;
     position:relative;
     top:0px;
 }
-.textoAcceso:hover{
+
+.imgAcceso:hover{
     text-decoration: none;
     transition: 0.5s;
     position:relative;
@@ -142,17 +122,11 @@ body {
     color: crimson;
     font-weight: bold;
     border-color: crimson;
-
 }
 
 .priceBtn:hover {
     background-color: #878787;
     border-color: white;
-
-}
-
-.marg{
-    margin:0.5em 2em 0.5em 3em;
 }
 
 .cardStyle{
@@ -160,9 +134,7 @@ body {
     background-color: rgb(0, 0, 0);
     margin-bottom: 0.5em;
     color: crimson;
-
 }
-
 
 .telMail{
     color: white;
@@ -171,6 +143,7 @@ body {
 .telMail:hover{
     color: black;
 }
+
 #message{
     resize: none;
     width: 100%;
