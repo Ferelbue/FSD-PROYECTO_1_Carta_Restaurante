@@ -12,3 +12,6 @@ myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
 
+function btnTable() {
+  prompt("ESCRIBE TU NUMERO DE TELEFONO Y TE LLAMAREMOS LO ANTES POSIBLE PARA RESERVAR LA MESA")
+}
