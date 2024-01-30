@@ -109,6 +109,18 @@ body {
     height: 5em;
 }
 
+.bg-2-2 {
+    background: linear-gradient(to right, crimson, 30%, black);
+    height: 5em;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.textoAcceso{
+    color: white;
+    text-decoration: none;
+}
+
 .t-stroke-shadow {
     color: crimson;
     text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #878787;
