@@ -18,6 +18,7 @@ This is the 1th project of the GeeksHub Academy Fullstack Developer Bootcamp, sh
 <img src="https://img.shields.io/badge/HTML5-acacac?style=for-the-badge&logo=html5&logoColor=orange" alt="HTM5" />
 <img src="https://img.shields.io/badge/CSS3-995B56?style=for-the-badge&logo=css3&logoColor=blue" alt="CSS3" />
 <img src="https://img.shields.io/badge/JAVASCRIPT-000000?style=for-the-badge&logo=javascript&logoColor=yelow" alt="JS" />
+<img src="https://img.shields.io/badge/BOOTSTRAP-75246?style=for-the-badge&logo=bootstrap&logoColor=yelow" alt="JS" />
 
 ***
 ## Features :star2:
