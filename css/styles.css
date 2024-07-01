@@ -1,13 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #FFFBF2;
+    background-color: #878787;
     min-height: 100vh;
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    display: none;
 }
 
 .contentCenter{
@@ -28,52 +23,13 @@ body {
 }
 
 .navFormat {
-    color: #FFFBF2 !important;
-    font-size: x-large;
-    font-weight: bold;
+    color: crimson;
 }
 
 .navFormat:hover {
-    color: black!important;
+    font-weight: bold;
 }
 
-.carousel-img {
-    margin-top: 5vh;
-    min-height: 70vh;
-    max-height: 70vh;
-    width: 100vw;
-
-}
-.titleCarousel{
-    font-size: xx-large;
-    text-decoration: underline;
-    color: rgb(255, 251, 242);
-}
-.textCarousel{
-    font-size: large;
-    color: rgb(255, 251, 242);
-}
-
-@media screen and (max-width: 600px) {
-    .titleCarousel{
-        font-size: medium;
-        text-decoration: underline;
-        color: rgb(255, 251, 242);
-    }
-    .textCarousel{
-        font-size: small;
-        color: rgb(255, 251, 242);
-    }
-    .presCenter{
-        font-size: small;
-    }
-    
-}
-
-.carouselTest{
-    background-color: black;
-    opacity: 40%;
-}
 .tableBtn {
     width: 15em;
     height: 4em;
@@ -102,9 +58,8 @@ body {
 }
 
 .myNavbar {
-    background-image: url("../img/serrin.png");
+    background-image: linear-gradient(rgb(251, 251, 251), #878787);
     width: 100%;
-    height: 5em;
 }
 
 .imgCar {
@@ -113,9 +68,8 @@ body {
 }
 
 .myFooter {
-    background-image: url("../img/serrin2.png");
-    width: 107% !important;
-    height: 5em;
+    background-image: linear-gradient(#878787, rgb(251, 251, 251));
+
 }
 
 .alturaImgCar {
@@ -163,6 +117,12 @@ body {
     text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #878787;
 }
 
+.priceBtn {
+    background-color: white;
+    color: crimson;
+    font-weight: bold;
+    border-color: crimson;
+}
 
 .priceBtn:hover {
     background-color: #878787;
@@ -191,66 +151,4 @@ body {
 
 #emailAddress{
     width: 100%;
-}
-
-.solicitaPresupuesto{
-    margin-top: 5vh;
-    margin-bottom: 3vh;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    
-}
-.presLeft{
-    width: 30vw;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 2vw;
-}
-.presCenter{
-    width: 80vw;
-    font-size: large;
-}
-.creaCenter{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-
-
-}
-
-.centerText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-@media screen and (max-width: 600px) {
-    .presCenter{
-        font-size: small;
-    }
-    .creaCenter{
-        font-size: small;
-        margin-left: 5vw;
-    }
-    
-}
-.test{
-    font-size: xx-large;
-    color: #FFFBF2 !important;
-}
-.gap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.gap2{
-    width: 70vw;
-    border-width: 1em;
-    border: solid;
-    border-color: rgb(83, 36, 26);
 }
